@@ -9,7 +9,7 @@
  
  ## Prerequisites
  
-@@ -21,41 +21,12 @@
+@@ -21,41 +21,11 @@
  3. Make sure `curl`, `findmnt`, `grep`, `awk` and `blkid` has been installed in all nodes of the Kubernetes cluster.
  4. Make sure `open-iscsi` has been installed, and the `iscsid` daemon is running on all nodes of the Kubernetes cluster. For GKE, recommended Ubuntu as guest OS image since it contains `open-iscsi` already.
  
@@ -51,7 +51,6 @@
 +To prevent damage to the Kubernetes cluster, we recommend deleting all Kubernetes workloads using Longhorn volumes (PersistentVolume, PersistentVolumeClaim, StorageClass, Deployment, StatefulSet, DaemonSet, etc).
 +
 +From Rancher Cluster Explorer UI, navigate to Apps page, delete app `longhorn` then app `longhorn-crd` in Installed Apps tab.
-+
  
  ---
  Please see [link](https://github.com/longhorn/longhorn) for more information.

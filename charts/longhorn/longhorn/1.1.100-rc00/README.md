@@ -27,6 +27,5 @@ To prevent damage to the Kubernetes cluster, we recommend deleting all Kubernete
 
 From Rancher Cluster Explorer UI, navigate to Apps page, delete app `longhorn` then app `longhorn-crd` in Installed Apps tab.
 
-
 ---
 Please see [link](https://github.com/longhorn/longhorn) for more information.

@@ -6,15 +6,14 @@ entries:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/display-name: Longhorn
       catalog.cattle.io/namespace: longhorn-system
-      catalog.cattle.io/os: linux
       catalog.cattle.io/provides-gvr: longhorn.io/v1beta1
       catalog.cattle.io/release-name: longhorn
       catalog.cattle.io/ui-component: longhorn
     apiVersion: v1
     appVersion: v1.1.1
-    created: "2021-04-26T23:08:00.670217561+08:00"
+    created: "2021-04-28T15:02:34.691018873+08:00"
     description: Longhorn is a distributed block storage system for Kubernetes.
-    digest: 1e5598ab344903dfd8cbb5f8eeea16d750a83b78f5a86c11fcd6cde36bbf2887
+    digest: 0f55d88200384fce400ca97c0d26fa2682193e139b422cc05f3ac3ea65ac4508
     home: https://github.com/longhorn/longhorn
     icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/longhorn/icon/color/longhorn-icon-color.png
     keywords:
@@ -53,7 +52,7 @@ entries:
       catalog.cattle.io/ui-component: longhorn
     apiVersion: v1
     appVersion: v1.1.0
-    created: "2021-04-26T23:08:00.669058568+08:00"
+    created: "2021-04-28T15:02:34.689793778+08:00"
     description: Longhorn is a distributed block storage system for Kubernetes.
     digest: 09a586f9ddccef1840e4c3cb548d7d412dd5cec650e3a86483086164d50da9d8
     home: https://github.com/longhorn/longhorn
@@ -90,9 +89,9 @@ entries:
       catalog.cattle.io/namespace: longhorn-system
       catalog.cattle.io/release-name: longhorn-crd
     apiVersion: v1
-    created: "2021-04-26T23:08:00.670561688+08:00"
+    created: "2021-04-28T15:02:34.69135474+08:00"
     description: Installs the CRDs for longhorn.
-    digest: 9855432801dc4f95ecfa263fc571e9a70cb2dd53080dab39125067e0ae13f304
+    digest: 73a5064d873a74fbe6daf74374a8e01d81bbdb19c7b3576723eab48e47cea1b8
     name: longhorn-crd
     type: application
     urls:
@@ -104,7 +103,7 @@ entries:
       catalog.cattle.io/namespace: longhorn-system
       catalog.cattle.io/release-name: longhorn-crd
     apiVersion: v1
-    created: "2021-04-26T23:08:00.67038063+08:00"
+    created: "2021-04-28T15:02:34.691198423+08:00"
     description: Installs the CRDs for longhorn.
     digest: 3510fd3cea8ef949fdcef70b5c240f3b4d5f6854a053c70260b9995e441af07a
     name: longhorn-crd
@@ -112,4 +111,4 @@ entries:
     urls:
     - assets/longhorn/longhorn-crd-1.1.001.tgz
     version: 1.1.001
-generated: "2021-04-26T23:08:00.668075478+08:00"
+generated: "2021-04-28T15:02:34.68766113+08:00"

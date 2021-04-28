@@ -23,7 +23,7 @@
      group: "Longhorn Images Settings"
    - variable: image.longhorn.ui.repository
 -    default:  longhornio/longhorn-ui
-+    default:  rancher/mirrored-longhornio-longhorn-ui
++    default: rancher/mirrored-longhornio-longhorn-ui
      description: "Specify Longhorn UI Image Repository"
      type: string
      label: Longhorn UI Image Repository
